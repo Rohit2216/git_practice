@@ -1,8 +1,8 @@
 // Check whether a string is palindrome or not.
 
-var str="rohit";
+var str="naman";
 var rev="";
-  for(var i=str.length-1;i>=5;i--){
+  for(var i=str.length-1;i>=0;i--){
       rev=rev+str;
   }
      if(rev==str){
@@ -14,7 +14,7 @@ var rev="";
 
 //Check whether a number is Prime or not
 
-
+let num=13;
 var primeNumber=false;
     for(var i=2; i<num;i++){
         if(num%i==0){
@@ -22,7 +22,7 @@ var primeNumber=false;
         }
     }
     if(primeNumber==true){
-        console.log("Yes")
-    }else{
         console.log("No")
+    }else{
+        console.log("Yes")
     }
